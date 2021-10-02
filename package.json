@@ -5,6 +5,7 @@
 	"scripts": {
 		"start": "npm run dev",
 		"test": "jest",
+		"test:watch": "npm run test -- --watch",
 		"dev": "vite",
 		"build": "npm run export-version && npm run lint && vue-tsc --noEmit && vite build",
 		"serve": "vite preview",
